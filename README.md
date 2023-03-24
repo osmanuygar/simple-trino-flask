@@ -1,7 +1,9 @@
-#Simple Trino Flask App
+# Simple Trino Flask App
+
 This is a Flask app that allows you to query a Trino cluster and display the results in a web browser.
 
-##Installation
+## Installation
+
 To install the app and its dependencies, follow these steps:
 ```bash
 # Clone the repository:
@@ -16,10 +18,10 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-##Configuration
+## Configuration
 Before you can use the app, you need to configure it with the connection details for your Trino cluster. Edit the config.txt file and set the values for host, username, password.
 
-##Usage
+## Usage
 To start the app, run the following command:
 ```bash
 python run.py
